@@ -1,0 +1,459 @@
+header {
+    background-color: #ff4f81;
+    color: white;
+}
+
+.header-right i {
+    font-size: 14px;
+    background-color: #333333;
+    padding: 8px 10px;
+    margin-left: 2px;
+    border: 1px solid transparent;
+    /* neu ko co border nay, khi hover vao se bi giat */
+    transition: all 0.5s
+
+}
+
+.header-right i:hover {
+    background-color: #ff4f81;
+    border: 1px solid white;
+
+}
+
+/* NavBar */
+.navbar-brand--logo p {
+    color:#ff4f81;
+    font-size: 1rem;
+    margin-top: -5px;
+}
+
+.navbar-nav--menu .nav-item .nav-link {
+    font-weight: bold;
+    color: #282828;
+    transition: all 0.5s
+}
+
+.navbar-nav--menu .nav-item__line {
+    width: 0%;
+    height: 2px;
+    background-color: #ff4f81;
+    transition: all 0.5s
+}
+
+.navbar-nav--menu .nav-item:hover>.nav-item__line {
+    width: 100%
+}
+
+.navbar-nav--menu .nav-item {
+    margin-left: 20px
+}
+
+.navbar-nav--menu .nav-item .nav-link:hover {
+    color: #ff4f81;
+}
+
+.navbar-nav--menu .active .nav-item__line {
+    width: 100%
+}
+
+#myMenu {
+    margin-top: -40px
+}
+
+/* CAROUSEL */
+.carousel-caption--config{
+    bottom: 40%
+}
+
+.carousel-caption--config h1{
+    font-weight: normal;
+    font-size: 3.3em;
+}
+
+.carousel-caption--config p{
+    font-size: 1.1em;
+    letter-spacing: 4px;
+    line-height: 1.8em;
+}
+
+.carousel-indicators--config {
+    bottom: 20%;
+}
+.btn--redmore{
+    border-radius: 0px;
+    margin-top: 10px;
+}
+.btn--redmore:hover{
+    background-color: #ff4f81;
+    color: white;
+    transition: all 0.5s
+}
+
+.modal-header--carousel h3 {
+    color: #ff4f81;
+}
+/* WELCOME */
+.welcome {
+    padding: 3rem 0;
+}
+
+.welcome-title h1 {
+    color:#ff4f81;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+.welcome-title span {
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: 500
+}
+
+.welcome-title--line {
+    width: 150px;
+    height: 2px;
+    background-color: black;
+}
+
+.welcome-title p {
+    font-size: 15px;
+    color: #999;
+    line-height: 1.8em;
+    padding: 0 10%
+}
+
+.education-course i {
+    font-size: 30px;
+}
+
+.education-course h2 {
+    color:#ff4f81;
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.education-course h3 {
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.education-course p {
+    font-size: 15px;
+    color: #999;
+    line-height: 1.8em;
+}
+ /* STATS */
+ .stats {
+     min-height: 400px;
+     background-image: url('../images/banner2.jpg');
+     background-size:cover;
+     background-attachment: fixed;
+     padding: 4rem 15px;
+     margin-top: 40px;
+     margin-bottom: 40px;
+}
+
+.stats--title h2 {
+    color:#ff4f81;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+.stats--title span {
+    color: white;
+    font-size: 17px;
+    letter-spacing: 4px;
+    font-weight: 500
+}
+
+.stats--detail {
+    color: white;
+    text-align: center;
+}
+
+.stats--detail i {
+    font-size: 40px
+}
+
+.stats--detail h2 {
+    font-size: 25px;
+    color: #ff4f81;
+    margin-top: 25px;
+}
+
+.stats--detail p {
+    font-size: 45px
+}
+
+/* WELCOME SECTION */
+
+.offer-title h1 {
+    color:#ff4f81;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+.offer-title p {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+.offer-item {
+    box-shadow: 0px 0px 4px 1px;
+    padding: 2rem 1rem;
+    margin-bottom: 20px;
+    transition: all 0.5s
+}
+
+.offer-item:hover {
+    background-color: #12ccc3;
+}
+
+.offer-item i {
+    font-size:40px;
+    color: #ff4f81
+}
+.offer-item h4 {
+    font-size:20px;
+    margin: 20px 10px
+}
+.offer-item p {
+    font-size: 15px;
+}
+
+/* TESTIMONIAL SECTION */
+.testimonial {
+    background-image: url(../images/banner3.jpg);
+    min-height: 400px;
+    background-size: cover;
+    padding: 3rem 15px;
+}
+
+.testimonial-content {
+    margin-top:25px;
+}
+.testimonial-title h1 {
+    color:#ff4f81;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+
+.testimonial-title p {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    color: white;
+}
+
+.testimonial-slider{
+    background-color: rgba(0,0,0,0.47);
+    box-shadow: 0px 0px 2px 1px #8e8e8e;
+    padding: 30px
+}
+.item__box{
+    background-color: rgba(0,0,0,0.57);
+    padding: 10px 20px;
+    margin-bottom:30px;
+    border-radius: 5px;
+    color: white;
+    position:relative;
+}
+.item__box::after{
+    content: '';
+    border-top: 9px solid rgba(0,0,0,0.57);
+    border-left: 9px solid transparent;
+    border-right: 9px solid transparent;
+    position: absolute;
+    bottom:-9px;
+    left: 27%
+}
+.item__user {
+    margin-left: 27%;
+    color: white;
+}
+.owl-carousel .item__user img {
+    width: 55px;
+    height: 55px;
+    float: left;
+    margin-right: 10px
+}
+.item__user .name{
+    margin-bottom: 0px;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+.item__user .description{
+    color: #ff4f81;
+    font-size:1.1em
+}
+.owl-theme--config .owl-dots .owl-dot span {
+    background-color: #ff4f81;
+    opacity:0.5
+}
+.owl-theme--config .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+    background-color: #ff4f81;
+    opacity:1
+}
+
+.float-none {
+    float:none;
+}
+/* NEWS & EVENTS */
+.news-title h1 {
+    color: #ff4f81;
+    font-weight: 600;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+}
+.news-title p {
+    font-size: 17px;
+    letter-spacing: 0.5px;
+}
+
+.news-img img {
+    border: solid 1px #dedede;
+}
+.news-info h4 {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+.news-info h6 {
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #ff4f81
+}
+/* FOOTER */
+
+.footer-detail {
+    background-color: #1f1f0b;
+    padding-top: 40px;
+   
+}
+
+.footer-detail h2 {
+    color: #ff4f81;
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-bottom:20px;
+}
+.footer-detail p {
+    color: #8b8b96;
+    font-size: 14px;
+}
+.footer__news p i{
+    color: #ff4f81;
+    margin-right: 10px
+}
+.footer__contact i{
+    border: 1px solid black;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+    color: white;
+}
+.footer__contact p span{
+    margin-left: 10px
+}
+.footer__form h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.footer__form input {
+    height: 40px;
+    width: 70%
+}
+.btn-footer-submit{
+    background-color:#ff4f81;
+    border-radius: 0px;
+    height: 40px;
+    margin-top: -3px;
+    cursor:pointer;
+    width: 25%
+}
+.btn-footer-submit:hover{
+    background-color:#ec1955
+}
+.copy-right {
+    background-color: #0f0f10;
+}
+.copy-right p span{
+    color: #ff4f81
+}
+@media screen and (min-width: 768px) and (max-width:991px) {
+    .navbar-brand--logo h1 {
+        font-size: 10px;
+        color: #6b6b6b
+    }
+
+    .navbar-nav--menu .nav-item .nav-link {
+        font-size: 0.9rem;
+    }
+
+    .navbar-nav--menu .nav-item {
+        margin-left: 10px
+    }
+    .footer__form h2 {
+        font-size: 1.3rem
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width:887px) {
+ 
+    .carousel-caption--config h1{
+        font-weight: normal;
+        font-size: 2.2em;
+        background-color:blue
+    }
+    .carousel-caption--config{
+        bottom: 20%
+    }
+}
+@media screen and (max-width: 768px) {
+    .carousel-caption--config{
+        bottom: 25%
+    }
+    
+    .carousel-indicators--config {
+        bottom: 10%;
+    }
+
+    .carousel-caption--config h1{
+        font-weight: normal;
+        font-size: 2.2em;
+    }
+    
+    .carousel-caption--config p{
+        font-size: 1em;
+        letter-spacing: 2px;
+        line-height: 1.38;
+        margin-bottom: 0
+    }
+@media screen and (max-width: 576px) {
+    .carousel-caption--config{
+        bottom: 17%
+    }
+    
+    .carousel-indicators--config {
+        bottom: 0%;
+    }
+
+    .carousel-caption--config h1{
+        font-weight: normal;
+        font-size: 1.5em;
+    }
+    
+    .carousel-caption--config p{
+        font-size: 0.8em;
+        letter-spacing: 2px;
+        line-height: 1.3em;
+        margin-bottom: 0
+    }
+}
+
+
+}
